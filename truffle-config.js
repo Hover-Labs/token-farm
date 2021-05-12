@@ -1,5 +1,5 @@
 require("ts-node").register({
-    files: true,
+  files: true,
 });
 
 const { mnemonic, secret, password, email } = require("./faucet.json");
@@ -18,9 +18,9 @@ module.exports = {
       type: "tezos"
     },
     edonet: {
-      host: "https://edonet-tezos.giganode.io",
+      host: "https://rpctest.tzbeta.net",
       network_id: "*",
-      secretKey: alice.sk,
+      secretKey: "edsk4ZjoVYBKxSFGGT2V7UN2aJGTuFzHTzW4H6Bnw84FA4g8d5HwTF",
       type: "tezos"
     },
   }
