@@ -20,7 +20,7 @@ initialStorage.base = () => ({
   delegators: new MichelsonMap,
   farmLpTokenBalance: new BigNumber(0),
   addresses: {
-    admin: accounts.alice.pkh,
+    admin: "tz1hoverof3f2F8NAavUyTjbFBstZXTqnUMS",
     lpTokenContract: "KT1L8zmG4ZwibgJwJxYZGJsjJeM7VA8qWEao",
     rewardTokenContract: "KT18yyUYL7U9eGfjukKqhY9THqugmh1oW6Fh",
     rewardReserve: "tz1KoLibimdjUSfhrSpXwx4FhhhCq1JM5Etk"
